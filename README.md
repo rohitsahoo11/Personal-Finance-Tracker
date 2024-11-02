@@ -1,6 +1,7 @@
 # Expense Tracker
 
 https://personal-finance-tracker-eight-murex.vercel.app/ 
+
 This project is an Expense Tracker application built with [Create React App](https://github.com/facebook/create-react-app). It allows users to track their income, expenses, and view a balance summary, helping them to monitor and manage their finances more effectively.
 
 ## Features
