@@ -14,14 +14,34 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  color: rgb(156, 191, 236);
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.filter-container {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 20px 0;
+}
+
+.filter-container label {
+  margin-right: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+.filter-container select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
 
 .App-link {
